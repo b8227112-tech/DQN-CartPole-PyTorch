@@ -1,6 +1,9 @@
-# DQN Implementation in PyTorch (Nature 2015)
+# DQN Implementation in PyTorch
 
-本项目基于 PyTorch 独立复现了经典的 Deep Q-Network (DQN) 算法，并在标准 CartPole 环境下进行了测试。
+本项目基于 PyTorch 独立复现了 DeepMind 团队发表于 Nature 的经典深度强化学习算法，并在标准 CartPole 环境下进行了测试。
+
+**📄 Reference Paper:**
+> Mnih, V., Kavukcuoglu, K., Silver, D. et al. *Human-level control through deep reinforcement learning*. Nature 518, 529–533 (2015).
 
 ## 核心机制实现
 - **Replay Buffer (经验回放池)**：打破序列数据相关性。
